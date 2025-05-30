@@ -1,0 +1,37 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1581093588401-6c2b56a1ff0a'); /* Office/dev workspace */
+  background-color: #c3d6d6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  color: #000608;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: brightness(0.8);
+}
+
+h1 {
+  color: #05171a;
+  font-size: 3rem;
+  margin-top: 50px;
+  text-shadow: 2px 2px 8px #c1b7b7;
+}
+
+p {
+  font-size: 20px;
+  color: #1a1f25;
+  text-shadow: 1px 1px 4px #a89f9f;
+}
+
+/* Image in the middle */
+.center-image {
+  margin: 40px auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(24, 27, 27, 0.4);
+  border: 2px solid #91bac2;
+}
